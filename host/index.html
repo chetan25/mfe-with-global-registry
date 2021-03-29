@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <style>
+            .container {
+                display: grid;
+                grid-template-columns: 1fr 1fr
+            }
+        </style>
+    </head>
+    <body>
+        <div class='container'>
+            <mfe-component name='images' productid='222' id="images"></mfe-component>
+            <mfe-component name='checkout' id="checkout"  productid='111'></mfe-component>
+        </div>
+        <script src='host.js'></script>
+        <script src='dist/checkout.js'></script>
+        <script src='dist/image.js'></script>
+    </body>
+</html>

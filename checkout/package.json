@@ -1,0 +1,16 @@
+{
+  "name": "checkout",
+  "version": "1.0.0",
+  "description": "mfe checkout ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel watch checkout.js --out-dir ../host/dist"
+  },
+  "author": "chetandasauni",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
